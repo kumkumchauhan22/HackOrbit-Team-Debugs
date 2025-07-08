@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HackOrbit-Team-Debugs Style Showcase</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Google+Sans:400,500" rel="stylesheet">
+  <style>
+/* BEGIN style.css contents */
+body {
+    margin: 0;
+    padding: 0;
+    background: #e6eeff;
+    font-family: 'Roboto', 'Google Sans', Arial, sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Google Sans', Arial, sans-serif;
+    color: #1a237e;
+    text-align: center;
+}
+p, .TextNew {
+    font-size: 1rem;
+    color: #283593;
+    line-height: 1.5;
+    padding: 0 1em;
+}
+a {
+    color: #3949ab;
+    text-decoration: underline;
+}
+a:hover {
+    color: #1e88e5;
+}
+.button-17 {
+    align-items: center;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 24px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Google Sans', Roboto, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    min-width: 120px;
+    outline: none;
+    padding: 0 24px;
+    text-align: center;
+    transition: box-shadow 280ms cubic-bezier(.4,0,.2,1);
+    user-select: none;
+    margin: 8px;
+}
+.button-17:hover {
+    box-shadow: 0 1px 3px 0 rgba(60,64,67,.3), 0 4px 8px 3px rgba(60,64,67,.15);
+    background: #1565c0;
+}
+.button-17[kind="secondary"] {
+    background: #fff;
+    color: #1a73e8;
+    border: 1px solid #1a73e8;
+}
+.button-17[kind="secondary"]:hover {
+    background: #e3f2fd;
+}
+.DidYouKnow_root {
+    background: #c5cae9;
+    border-radius: 12px;
+    padding: 1.5em 1em;
+    max-width: 600px;
+    margin: 2em auto;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.07);
+}
+.DidYouKnow_title {
+    font-size: 1.4rem;
+    color: #283593;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+.DidYouKnow_content {
+    color: #303f9f;
+    font-size: 1.1rem;
+}
+.icon2, .icon3 {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.icon2 {
+    background: #1a73e8;
+    box-shadow: 0 2px 6px rgba(44,62,80,0.12);
+}
+.icon3 {
+    background: #e53935;
+    box-shadow: 0 2px 6px rgba(44,62,80,0.12);
+}
+@media (max-width: 600px) {
+    .DidYouKnow_root {
+        padding: 1em 0.5em;
+    }
+    .button-17 {
+        min-width: 100px;
+        font-size: 0.9rem;
+        height: 40px;
+        padding: 0 12px;
+    }
+}
+/* END style.css contents */
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HackOrbit-Team-Debugs UI Demo</h1>
+  </header>
+
+  <section class="DidYouKnow_root">
+    <div class="DidYouKnow_title">Did You Know?</div>
+    <div class="DidYouKnow_content TextNew">
+      This is a stylized info box using <code>.DidYouKnow_root</code> and <code>.TextNew</code> classes!
+    </div>
+  </section>
+
+  <div style="text-align:center;">
+    <button class="button-17">Primary Action</button>
+    <button class="button-17" kind="secondary">Secondary Action</button>
+  </div>
+
+  <section>
+    <h2>Sample Content</h2>
+    <p>
+      This is a paragraph. The styles for <code>p</code> and headings are applied from your CSS.
+      <a href="#">This is a styled link</a>.
+    </p>
+    <div style="text-align:center;">
+      <span class="icon2"></span>
+      <span class="icon3"></span>
+    </div>
+  </section>
+</body>
+</html>
