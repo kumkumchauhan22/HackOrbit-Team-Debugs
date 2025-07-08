@@ -159,5 +159,3 @@ def chart(model, scaler,sample_df, prediction):
     background.save(data3, "PNG")
     return data3
 
-
-
